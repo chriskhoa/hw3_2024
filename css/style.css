@@ -133,6 +133,12 @@ first div in the grid  and place it in the grid. */
 .container div:first-child {
   grid-column: 1/-1;
   background-image: url("/images/header.jpg");
+  background-attachment: fixed; /* Parallax effect */
+  background-position: center; /* Parallax effect */
+  background-repeat: no-repeat; /* Parallax effect */
+  background-size: cover; /* Parallax effect */
+  color: white;
+  height: 400px; /* Parallax effect */
 }
 
 /* Steps 6 and 7: Write the selector/rule properties to add place the next elements in the next
@@ -187,7 +193,7 @@ first div in the grid  and place it in the grid. */
   margin: auto;
 }
 /* Add your media query here */
-@media screen and (min-width: 800px) {
+@media only screen and (min-width: 800px) {
   /* Step 9: Write the selector/rule property to style the nav element */
   nav {
     text-align: right;
