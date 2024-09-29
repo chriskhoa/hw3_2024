@@ -139,6 +139,7 @@ first div in the grid  and place it in the grid. */
   background-size: cover; /* Parallax effect */
   color: white;
   height: 400px; /* Parallax effect */
+  overflow: auto;
 }
 
 /* Steps 6 and 7: Write the selector/rule properties to add place the next elements in the next
